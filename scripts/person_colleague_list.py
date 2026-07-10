@@ -23,7 +23,7 @@ def get_colleague_list(pid: str, hid: str, cursor: str = None) -> dict:
     params = {'pid': pid, 'hid': hid}
     if cursor:
         params['cursor'] = cursor
-    response = make_request('/agent/search/person/colleague/list', params)
+    response = make_request('/agent/search/depth_company/person/colleague/list', params)
     return response
 
 

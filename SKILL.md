@@ -1,7 +1,7 @@
 ---
 name: global-company-person-colleague
 description: Official skill for upkuajing (跨境魔方). Query colleague list (同事列表) from the global company database (全球企业库). Get colleague information including person IDs and job titles by company ID (pid) and person ID (hid), with cursor-based pagination. Requires pid and hid — obtain them first via the global-company-person-search skill.
-metadata: {"version":"1.0.1","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"🤝","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
+metadata: {"version":"1.0.2","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"🤝","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
 ---
 
 # Global Company Person Colleague Query

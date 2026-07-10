@@ -1,7 +1,7 @@
 # 全球企业库同事列表 API 参考
 
 > 根据公司ID和人物ID获取某人的同事信息，支持游标翻页。
-> 接口路径：`POST /agent/search/person/colleague/list`
+> 接口路径：`POST /agent/search/depth_company/person/colleague/list`
 
 ## python脚本参数
 

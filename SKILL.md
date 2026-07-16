@@ -1,7 +1,7 @@
 ---
 name: global-company-person-colleague
-description: Official skill for upkuajing (跨境魔方). Query colleague list (同事列表) from the global company database (全球企业库). Get colleague information including person IDs and job titles by company ID (pid) and person ID (hid), with cursor-based pagination. Requires pid and hid — obtain them first via the global-company-person-search skill.
-metadata: {"version":"1.0.2","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"🤝","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
+description: "Find internal company teammates via company ID and personnel ID. Uncover hidden stakeholders and build your contact network to pinpoint client‑side decision‑making groups.\n\nTrigger: find internal company teammates, map client decision‑making circles, discover additional stakeholders, bulk contact sourcing, B2B network expansion"
+metadata: {"version":"1.0.3","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"🤝","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
 ---
 
 # Global Company Person Colleague Query
@@ -155,3 +155,6 @@ Other UpKuaJing skills you might find useful:
 - upkuajing-global-company-people-search — Unified company and people search across all sources
 - upkuajing-customs-trade-company-search — Search customs trade companies
 - upkuajing-contact-info-validity-check — Check contact info validity
+- phone-validity-check — Check phone number validity
+- email-validity-check — Check email address validity
+- domain-validity-check — Check domain validity and security

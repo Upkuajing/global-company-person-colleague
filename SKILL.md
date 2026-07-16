@@ -1,7 +1,7 @@
 ---
 name: global-company-person-colleague
 description: "Find internal company teammates via company ID and personnel ID. Uncover hidden stakeholders and build your contact network to pinpoint client‑side decision‑making groups.\n\nTrigger: find internal company teammates, map client decision‑making circles, discover additional stakeholders, bulk contact sourcing, B2B network expansion"
-metadata: {"version":"1.0.3","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"🤝","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
+metadata: {"version":"1.0.4","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"🤝","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
 ---
 
 # Global Company Person Colleague Query
